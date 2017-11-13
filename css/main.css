@@ -104,7 +104,42 @@ html {
 }
 
 body {
-	border: 1px solid red;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header & Nav */
+.page-header {
+	float: left;
+	background-color: #000;
+	color: #fff;
+	padding: 1em;
+	width: 100%;
+	position: fixed;
+	margin: 0 0 10em 0;
+}
+.page-header h1{
+	margin: 0;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+.main-nav {
+	float: right;
+	
+}
+.main-nav li {
+	background-color: #000;
+	color: #fff;
+	list-style-type: none;
+}
+
+.main-nav a:visited { 
+    color: #bbb;
+}
+
+/* Tagline */
+.tagline {
+	clear: both;
+	
 }
 
 
